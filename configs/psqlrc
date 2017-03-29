@@ -1,0 +1,11 @@
+\pset null '(null)'
+\encoding unicode
+\timing
+\set COMP_KEYWORD_CASE upper
+
+\set PROMPT1 '%[%033[1m%]%x %/ %[%033[0m%]%R%# '
+\set PROMPT2 '  %R> '
+
+\x auto
+\pset format wrapped
+

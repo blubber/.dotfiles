@@ -1,0 +1,64 @@
+
+autocmd! bufwritepost .vimrc source %
+
+set bs=2
+
+set t_Co=256
+
+set background=light
+set nocompatible
+
+highlight BadWhitespace ctermbg=51 guibg=red
+au BufRead,BufNewFile * match BadWhitespace /\s\+$/
+
+filetype off
+
+call pathogen#infect()
+call pathogen#helptags()
+
+filetype plugin indent on
+syntax on
+
+set nocompatible
+set nocp
+
+set t_Co=256
+
+set number relativenumber " show line numbers
+set tw=99 " width of document (used by gd)
+set fo-=t " don't automatically wrap text when typing
+set colorcolumn=89,99
+
+set history=700
+set undolevels=700
+
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set shiftround
+set expandtab
+
+set nobackup
+set nowritebackup
+set noswapfile
+
+set laststatus=2
+colorscheme colors
+
+set hidden
+set incsearch hlsearch
+
+set cursorline
+
+" Disable hlsearch with spacebar
+nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
+
+set path+=**
+set wildmenu
+
+command! MakeTags !ctags -R .
+
+" Snippets
+nnoremap ,html :-1read $HOME/.vim/snippets/html/skeleton.html<CR>
+nnoremap ,tpl :-1read $HOME/.vim/snippets/html/frombase.html<CR>
+

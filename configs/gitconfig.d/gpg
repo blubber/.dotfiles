@@ -1,0 +1,8 @@
+[user]
+	signingkey = F6592404140488ABFCD084D191A2E4A5F44B310E
+[gpg]
+	program = gpg2
+[commit]
+	gpgsign = true
+
+
