@@ -3,8 +3,6 @@ autocmd! bufwritepost .vimrc source %
 
 set bs=2
 
-set t_Co=256
-
 set background=light
 set nocompatible
 
@@ -19,10 +17,11 @@ call pathogen#helptags()
 filetype plugin indent on
 syntax on
 
+set termguicolors
+colorscheme github
+
 set nocompatible
 set nocp
-
-set t_Co=256
 
 set number relativenumber " show line numbers
 set tw=99 " width of document (used by gd)
@@ -43,7 +42,6 @@ set nowritebackup
 set noswapfile
 
 set laststatus=2
-colorscheme colors
 
 set hidden
 set incsearch hlsearch
