@@ -56,16 +56,28 @@
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>649 358 796 473 0 0 2048 1129 </string>
+	<string>649 450 796 473 0 0 2048 1129 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>245 145 570 452 0 0 2048 1129 </string>
+	<string>0 0 1020 1129 0 0 2048 1129 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>266 122 570 452 0 0 2048 1129 </string>
+	<string>134 170 910 738 0 0 2048 1129 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
 			<key>ASCII Anti Aliased</key>
 			<true/>
+			<key>AWDS Pane Directory</key>
+			<string></string>
+			<key>AWDS Pane Option</key>
+			<string>Recycle</string>
+			<key>AWDS Tab Directory</key>
+			<string></string>
+			<key>AWDS Tab Option</key>
+			<string>Recycle</string>
+			<key>AWDS Window Directory</key>
+			<string></string>
+			<key>AWDS Window Option</key>
+			<string>No</string>
 			<key>Ambiguous Double Width</key>
 			<false/>
 			<key>Ansi 0 Color</key>
@@ -86,13 +98,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.99905514717102051</real>
+				<real>0.72402584552764893</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>1</real>
+				<real>0.7247927188873291</real>
 				<key>Red Component</key>
-				<real>0.12926812469959259</real>
+				<real>0.09261784702539444</real>
 			</dict>
 			<key>Ansi 10 Color</key>
 			<dict>
@@ -268,13 +280,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.99905514717102051</real>
+				<real>0.57665961980819702</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>1</real>
+				<real>0.57735371589660645</real>
 				<key>Red Component</key>
-				<real>0.12926812469959259</real>
+				<real>0.073777869343757629</real>
 			</dict>
 			<key>BM Growl</key>
 			<false/>
@@ -359,7 +371,7 @@
 			<key>Custom Command</key>
 			<string>No</string>
 			<key>Custom Directory</key>
-			<string>No</string>
+			<string>Advanced</string>
 			<key>Default Bookmark</key>
 			<string>No</string>
 			<key>Description</key>
@@ -713,22 +725,26 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.47939020395278931</real>
+				<real>0.0</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.46320754289627075</real>
+				<real>0.0</real>
 				<key>Red Component</key>
-				<real>0.98968851566314697</real>
+				<real>0.0</real>
 			</dict>
 			<key>Selection Color</key>
 			<dict>
-				<key>Blue Component</key>
+				<key>Alpha Component</key>
 				<real>1</real>
+				<key>Blue Component</key>
+				<real>0.39048826694488525</real>
+				<key>Color Space</key>
+				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.8353000283241272</real>
+				<real>0.74179399013519287</real>
 				<key>Red Component</key>
-				<real>0.70980000495910645</real>
+				<real>0.8036310076713562</real>
 			</dict>
 			<key>Send Code When Idle</key>
 			<false/>
@@ -770,6 +786,10 @@
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>CE60A978-586F-45BB-A1D1-AA183F8E81AF</string>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
+	<true/>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
+	<integer>0</integer>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>512995230.22427899</real>
 	<key>OnlyWhenMoreTabs</key>
@@ -812,7 +832,7 @@
 	<key>PromptOnQuit</key>
 	<false/>
 	<key>QuitWhenAllWindowsClosed</key>
-	<true/>
+	<false/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
@@ -822,7 +842,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-04-04T10:53:08Z</date>
+	<date>2017-04-06T06:56:23Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowPaneTitles</key>
@@ -831,6 +851,10 @@
 	<false/>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
+	<key>findIgnoreCase_iTerm</key>
+	<true/>
+	<key>findRegex_iTerm</key>
+	<false/>
 	<key>iTerm Version</key>
 	<string>3.0.15</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
