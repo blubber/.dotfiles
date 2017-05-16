@@ -36,12 +36,12 @@ hi WarningMsg ctermfg=167 guifg=#ef5939
 hi ErrorMsg ctermbg=15 ctermfg=196 guibg=#f8f8ff guifg=#ff1100 gui=undercurl cterm=undercurl
 hi ColorColumn ctermbg=254 guibg=#CCCCCC guifg=#000000
 " }}}
-
 " {{{ Vim => 7.0 specific colors
 if version >= 700
-    hi CursorLine ctermbg=253 guibg=#EEEEEE
-    hi MatchParen ctermfg=0 ctermbg=252 guifg=#000000 guibg=#cdcdfd
-    hi Pmenu        ctermfg=15 ctermbg=8 guifg=#ffffff guibg=#808080 gui=bold   cterm=bold
+    hi clear CursorLine
+    hi CursorLine ctermbg=253 guibg=#DDDDDD
+    hi MatchParen ctermfg=0 ctermbg=252 guifg=#000000 guibg=#0099FF
+    hi Pmenu        ctermfg=15 ctermbg=8 guifg=#ffffff guibg=#0099FF gui=bold   cterm=bold
     hi PmenuSel     ctermfg=0 ctermbg=252 guifg=#000000 guibg=#cdcdfd  gui=italic cterm=italic
     hi PmenuSbar    ctermfg=238 ctermbg=0 guifg=#444444 guibg=#000000
     hi PmenuThumb   ctermfg=248 ctermbg=248 guifg=#aaaaaa guibg=#aaaaaa
@@ -76,7 +76,7 @@ hi TypeDef      ctermfg=0 guifg=#000000 gui=bold    cterm=bold
 
 " {{{ Links
 hi! link FoldColumn Folded
-hi! link CursorColumn   CursorLine
+" hi! link CursorColumn   CursorLine
 hi! link NonText    LineNr
 " }}}
 

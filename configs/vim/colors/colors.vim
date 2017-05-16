@@ -5,4 +5,4 @@ hi ErrorMsg     ctermfg=15   ctermbg=51     cterm=bold
 hi Pmenu        ctermfg=232 ctermbg=253     cterm=none
 hi ColorColumn  ctermbg=221
 
-hi CursorLine   ctermfg=none    ctermbg=255 cterm=underline
+hi CursorLine   ctermfg=none    ctermbg=253 cterm=none
