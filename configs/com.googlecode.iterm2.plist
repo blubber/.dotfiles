@@ -58,9 +58,15 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>649 450 796 473 0 0 2048 1129 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1020 1129 0 0 2048 1129 </string>
+	<string>0 0 2040 1129 0 0 2048 1129 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>134 170 910 738 0 0 2048 1129 </string>
+	<string>0 391 910 738 0 0 2048 1129 </string>
+	<key>NSWindow Frame iTerm Window 2</key>
+	<string>201 155 910 738 0 0 2048 1129 </string>
+	<key>NeverWarnAboutShortLivedSessions_918B9101-F7F9-4153-98A8-DFAAFBFF3D75</key>
+	<true/>
+	<key>NeverWarnAboutShortLivedSessions_918B9101-F7F9-4153-98A8-DFAAFBFF3D75_selection</key>
+	<integer>0</integer>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -786,12 +792,24 @@
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>CE60A978-586F-45BB-A1D1-AA183F8E81AF</string>
+	<key>NoSyncLastTipTime</key>
+	<real>514275122.71184701</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>0</integer>
+	<key>NoSyncPermissionToShowTip</key>
+	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>512995230.22427899</real>
+	<key>NoSyncTipsDisabled</key>
+	<true/>
+	<key>NoSyncTipsToNotShow</key>
+	<array>
+		<string>000</string>
+		<string>0000</string>
+		<string>0001</string>
+	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<false/>
 	<key>PointerActions</key>
@@ -842,7 +860,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-04-06T06:56:23Z</date>
+	<date>2017-05-18T06:25:58Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowPaneTitles</key>
