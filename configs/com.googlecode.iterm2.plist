@@ -12,6 +12,8 @@
 	<false/>
 	<key>Default Bookmark Guid</key>
 	<string>918B9101-F7F9-4153-98A8-DFAAFBFF3D75</string>
+	<key>DimOnlyText</key>
+	<false/>
 	<key>HideScrollbar</key>
 	<true/>
 	<key>HideTab</key>
@@ -56,13 +58,13 @@
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>649 450 796 473 0 0 2048 1129 </string>
+	<string>649 726 770 381 0 0 2048 1129 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>0 0 2040 1129 0 0 2048 1129 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>0 391 910 738 0 0 2048 1129 </string>
+	<string>274 271 910 738 0 0 2048 1129 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>201 155 910 738 0 0 2048 1129 </string>
+	<string>0 0 2040 1129 0 0 2048 1129 </string>
 	<key>NeverWarnAboutShortLivedSessions_918B9101-F7F9-4153-98A8-DFAAFBFF3D75</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_918B9101-F7F9-4153-98A8-DFAAFBFF3D75_selection</key>
@@ -812,6 +814,8 @@
 	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<false/>
+	<key>PMPrintingExpandedStateForPrint2</key>
+	<false/>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -847,6 +851,8 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>~/.dotfiles/configs/</string>
+	<key>Print In Black And White</key>
+	<true/>
 	<key>PromptOnQuit</key>
 	<false/>
 	<key>QuitWhenAllWindowsClosed</key>
@@ -860,15 +866,17 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-05-18T06:25:58Z</date>
+	<date>2017-06-22T09:38:50Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowPaneTitles</key>
 	<false/>
+	<key>SplitPaneDimmingAmount</key>
+	<real>0.10000000000000001</real>
 	<key>UseBorder</key>
 	<false/>
 	<key>WordCharacters</key>
-	<string>/-+\~_.</string>
+	<string>/_-.{}()[]</string>
 	<key>findIgnoreCase_iTerm</key>
 	<true/>
 	<key>findRegex_iTerm</key>

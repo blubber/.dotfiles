@@ -11,8 +11,8 @@ au BufRead,BufNewFile * match BadWhitespace /\s\+$/
 
 filetype off
 
-call pathogen#infect()
-call pathogen#helptags()
+execute pathogen#infect()
+execute pathogen#helptags()
 
 filetype plugin indent on
 syntax on
@@ -59,4 +59,3 @@ command! MakeTags !ctags -R .
 " Snippets
 nnoremap ,html :-1read $HOME/.vim/snippets/html/skeleton.html<CR>
 nnoremap ,tpl :-1read $HOME/.vim/snippets/html/frombase.html<CR>
-
